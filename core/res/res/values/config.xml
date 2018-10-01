@@ -1707,6 +1707,9 @@
     <!-- Whether supported profiles should be reloaded upon enabling bluetooth -->
     <bool name="config_bluetooth_reload_supported_profiles_when_enabled">false</bool>
 
+    <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
+    <bool name="config_cleanupUnusedFingerprints">true</bool>
+
     <!-- Enabling autoconnect over pan -->
     <bool name="config_bluetooth_pan_enable_autoconnect">false</bool>
 
