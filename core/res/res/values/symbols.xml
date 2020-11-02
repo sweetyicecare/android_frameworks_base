@@ -4054,7 +4054,10 @@
   <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
   <java-symbol type="bool" name="config_cleanupUnusedFingerprints" />
 
-    <!-- Post reset runnable for all clients -->
-    <java-symbol type="bool" name="config_fingerprintPostResetRunnableForAllClients" />
+  <!-- Post reset runnable for all clients -->
+  <java-symbol type="bool" name="config_fingerprintPostResetRunnableForAllClients" />
+
+  <!-- Whether to allow process with media UID to access CameraServiceProxy -->
+  <bool name="config_allowMediaUidForCameraServiceProxy">false</bool>
 
 </resources>
